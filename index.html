@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>REFFLY: Revision Framework for Lyric Generation</title>
+    <title>REFFLY: Melody-Constrained Lyrics Editing Model</title>
     <style>
       body {
         font-family: Helvetica, Arial, sans-serif;
@@ -177,7 +177,7 @@
   </head>
   <body>
     <header>
-      <h1><i>REFFLY:</i> Revision Framework for Lyric Generation</h1>
+      <h1><i>REFFLY:</i> Melody-Constrained Lyrics Editing Model</h1>
       <h2>Examples of the Generated Lyrics for Different Use Cases</h2>
       <h3>
         NOTE: Audio may take some time to load in Chrome. If any audio doesn't
@@ -312,13 +312,40 @@
           <img
             src="https://github.com/anonymous-account-XXX/anonymous_demo/raw/main/meta_data/fig4/fig4.png"
             alt="Figure 4"
-            width="590"
-            height="290"
+            width="800"
+            height="410"
           />
+
+          <div class="vertical-center">
+            <audio controls style="margin-left: 20px; margin-top: 65px">
+              <source
+                src="https://github.com/anonymous-account-XXX/anonymous_demo/raw/main/meta_data/fig4/Reffly/song.wav"
+                type="audio/wav"
+              />
+            </audio>
+            <audio controls style="margin-left: 20px; margin-top: -110px">
+              <source
+                src="https://github.com/anonymous-account-XXX/anonymous_demo/raw/main/meta_data/fig4/ChatGPT/song.wav"
+                type="audio/wav"
+              />
+            </audio>
+            <audio controls style="margin-left: 20px; margin-top: -110px">
+              <source
+                src="https://github.com/anonymous-account-XXX/anonymous_demo/raw/main/meta_data/fig4/Lyra/song.wav"
+                type="audio/wav"
+              />
+            </audio>
+            <audio controls style="margin-left: 20px; margin-top: -110px">
+              <source
+                src="https://github.com/anonymous-account-XXX/anonymous_demo/raw/main/meta_data/fig4/SongMASS/song.wav"
+                type="audio/wav"
+              />
+            </audio>
+          </div>
         </div>
         <br />
 
-        <div class="model gpt4">
+        <!-- <div class="model gpt4">
           <div class="model-title">Generated lyric of GPT-4</div>
           <img
             src="https://github.com/anonymous-account-XXX/anonymous_demo/raw/main/meta_data/fig4/ChatGPT/score.png"
@@ -388,7 +415,7 @@
               />
             </audio>
           </div>
-        </div>
+        </div> -->
 
         <br />
         <div class="centered-text">
